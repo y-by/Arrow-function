@@ -1,0 +1,22 @@
+body {
+  background: rgb(11, 23, 151);
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 4em;
+  color: #FCDF3E;
+}
+body::after {
+  content: "Arrow functions";
+  position: absolute;
+  top: calc(100vh - 50% - 4rem);
+  left: calc(100vw - 50% - 5ch);
+  width: min-content;
+  height: min-content;
+
+  padding: 1em;
+
+
+  border: none;
+  box-shadow: 0px 0px 50px -25px #F9C42D;
+}
+/* #F9C42D */
